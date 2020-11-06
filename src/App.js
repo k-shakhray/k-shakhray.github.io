@@ -6,6 +6,7 @@ import About from './Components/About/About'
 import Experience from "./Components/Experience/Experience";
 import Footer from './Components/Footer/Footer';
 import Skills from './Components/Skills/Skills'
+import Page404 from "./Components/Page404/Page404";
 import {
     BrowserRouter as Router,
     Switch,
@@ -23,6 +24,7 @@ function App() {
           <Route exact path='/'  component={About} />
           <Route path='/skills' component={Skills} />
           <Route path='/experience' component={Experience} />
+          <Route component={Page404}/>
       </Switch>
       <Footer />
          </Router>

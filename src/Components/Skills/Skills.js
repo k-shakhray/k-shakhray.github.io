@@ -1,7 +1,7 @@
 import React from "react";
 import './Skills.css'
 
-export default class Skill2 extends React.Component {
+export default class Skills extends React.Component {
     
     render() {
         return (
