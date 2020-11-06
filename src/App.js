@@ -8,7 +8,7 @@ import Footer from './Components/Footer/Footer';
 import Skills from './Components/Skills/Skills'
 import Page404 from "./Components/Page404/Page404";
 import {
-    BrowserRouter as Router,
+    HashRouter as Router,
     Switch,
     Route,
     Link
