@@ -18,7 +18,7 @@ import {
 function App() {
  return(
      <>
-         <Router>
+         <Router basename = "/">
       <Header />
       <Switch>
           <Route exact path='/'  component={About} />
