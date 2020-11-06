@@ -1,0 +1,124 @@
+.skills-title {
+    margin: 30px 10px;
+    text-align: center;
+}
+
+.skills-hr {
+    border: 1px solid #b8b8b8;
+    width: 400px;
+    margin: 30px auto;
+}
+
+.skills-main-container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    margin: 0 20px 30px 20px
+}
+
+.skills-item {
+    width: 390px;
+    border: 1px solid #282c34;
+    border-radius: 10px;
+    margin: 30px 10px;
+    position: relative;
+}
+
+.skills-item-header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: -1px;
+    left: -1px;
+}
+
+.skills-item-title {
+    text-transform: uppercase;
+    background-color: #282c34;
+    padding: 2px 8px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    font-size: 32px;
+    font-weight: 600;
+    color: white;
+}
+
+.progress-container {
+    flex-grow: 2;
+    height: 20px;
+    margin: 0 10px 0 10px;
+    border-radius: 10px;
+    background-color: lightgrey;
+}
+
+.progress-item {
+    display: inline-block;
+    height: 20px;
+    border-radius: 10px;
+    background-color: darkorange;
+}
+
+/* HTML *//* HTML *//* HTML */
+.progress-html{
+    width: 100%;
+    position: relative;
+}
+.progress-html::after {
+    content: '100%';
+    font-weight: 500;
+    position: absolute;
+    right: 5px;
+    bottom: -2px;
+}
+
+/* CSS *//* CSS *//* CSS */
+.progress-css{
+    width: 95%;
+    position: relative;
+}
+.progress-css::after {
+    content: '95%';
+    font-weight: 500;
+    position: absolute;
+    right: 5px;
+    bottom: -2px;
+}
+
+/* JS *//* JS *//* JS */
+.progress-js{
+    width: 70%;
+    position: relative;
+}
+.progress-js::after {
+    content: '70%';
+    font-weight: 500;
+    position: absolute;
+    right: 5px;
+    bottom: -2px;
+}
+
+/* OTHER *//* OTHER *//* OTHER */
+.progress-other{
+    width: 0;
+    position: relative;
+}
+.progress-other::after {
+    content: '';
+    font-weight: 500;
+    position: absolute;
+    right: 5px;
+    bottom: -2px;
+}
+
+
+.skill-delimiter {
+    margin-bottom: 62px;
+}
+
+.skills-item-description {
+    margin: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}

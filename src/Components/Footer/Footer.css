@@ -1,0 +1,44 @@
+.footer-container {
+    background: #282c34;
+    color: gray;
+    position: relative;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer-contact {
+    padding-top: 16px;
+}
+
+.footer-contact p {
+    margin: 0 0 2px 40px;
+    font-weight: bold;
+}
+
+.footer-contact li {
+    
+}
+
+.footer-contact li > a {
+    color: white;
+    text-decoration: underline;
+}
+
+.footer-copyright {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 20px;
+    font-size: small;
+}
+
+
+@media screen and (max-width: 840px){
+    .footer-copyright {
+        width: 120px;
+    }
+}
