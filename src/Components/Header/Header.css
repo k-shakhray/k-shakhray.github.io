@@ -43,14 +43,35 @@
     border-top-right-radius: 5px;
 }
 
+.about-mobile {
+    display: none;
+}
+
 .header-router a:hover {
     background-color: #646870;
     transition: 500ms;
 }
 
-@media screen and (max-width: 438px){
-    body {
-        width: 438px;
+@media screen and (max-width: 480px){
+
+    .header-router a {
+        padding: 3px;
+        margin: 0 2px;
+    }
+
+    .about-mobile {
+        display: initial;
+    }
+
+    .about-desktop {
+        display: none;
     }
 }
+
+@media screen and (max-width: 359px) {
+    body {
+        width: 360px;
+    }
+}
+
 

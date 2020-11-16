@@ -19,7 +19,8 @@ export default function Header() {
                 </h1>
                 
                 <div className='header-router'>
-                    <NavLink to='/' exact={true} activeClassName="header-router-active">About me</NavLink>
+                    <NavLink to='/' exact={true} className='about-desktop' activeClassName="header-router-active">About me</NavLink>
+                    <NavLink to='/' exact={true} className='about-mobile' activeClassName="header-router-active">About</NavLink>
                     <NavLink to='/skills' activeClassName="header-router-active">Skills</NavLink>
                     <NavLink to='/experience' activeClassName="header-router-active">Experience</NavLink>
                 </div>

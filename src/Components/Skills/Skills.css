@@ -122,3 +122,18 @@
     font-size: 18px;
     font-weight: 500;
 }
+
+
+@media screen and (max-width: 840px){
+
+    .skill-hr {
+        width: 360px;
+    }
+}
+
+@media screen and (max-width: 480px){
+
+    .skill-hr {
+        width: 310px;
+    }
+}

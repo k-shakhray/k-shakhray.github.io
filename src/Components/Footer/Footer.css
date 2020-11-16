@@ -42,3 +42,23 @@
         width: 120px;
     }
 }
+
+@media screen and (max-width: 480px) {
+    .footer-copyright {
+        margin-right: 10px;
+    }
+
+    .footer-contact p {
+        margin: 0 0 2px 10px;
+    }
+
+    .footer-contact ul {
+        padding-left: 10px;
+    }
+
+    .footer-contact li {
+        list-style-type: none;
+    }
+}
+
+

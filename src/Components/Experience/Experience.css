@@ -97,5 +97,26 @@
 
     .experience-card-description {
         width: 330px;
+        margin: 15px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .experience-card {
+        width: 310px;
+        margin: 30px 10px;
+    }
+
+    .experience-hr {
+        width: 310px;
+    }
+
+    .experience-card-illustration {
+        width: 310px;
+    }
+
+    .experience-card-description {
+        width: 300px;
+        margin: 5px;
     }
 }
