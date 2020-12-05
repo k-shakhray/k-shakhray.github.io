@@ -10,8 +10,7 @@ import Page404 from "./Components/Page404/Page404";
 import {
     HashRouter as Router,
     Switch,
-    Route,
-    Link
+    Route
 } from "react-router-dom";
 
 
