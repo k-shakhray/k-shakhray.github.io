@@ -5,6 +5,7 @@ import danIMG from '../../img/dan_it_img.JPG'
 import quantumIMG from '../../img/quantum-system.JPG'
 import forkioIMG from '../../img/layout-example.jpg'
 import hamIMG from '../../img/ham-layout.jpg'
+import pricingIMG from '../../img/pricingplan.JPG'
 
 export default function Experience() {
     return ( 
@@ -138,6 +139,31 @@ export default function Experience() {
                         Just an example page. Was done according to the provided layout in Photoshop
                     </p>
                     <a target='_blank' href='https://k-shakhray-portfolio.github.io/k-shakhray-portfolio/step_project_ham/index.html' rel="noopener noreferrer">Go to website</a>
+                </div>
+            </div>
+
+
+
+            <div className='experience-card'>
+                <div className='experience-card-illustration'>
+                    <a target='_blank' href='https://k-shakhray-portfolio.github.io/k-shakhray-portfolio/PricingTable/index.html' rel="noopener noreferrer">
+                        <img alt='layout example, site' src={pricingIMG}/>
+                        <span>
+                            Go to website
+                        </span>
+                    </a>
+                </div>
+                <div className='experience-card-description'>
+                    <div className='experience-card-title'>
+                        <h3>
+                            Pricing Table
+                        </h3>
+                        <span>Example page</span>
+                    </div>
+                    <p>
+                        Just an example page. Was done according to the provided layout in Photoshop
+                    </p>
+                    <a target='_blank' href='https://k-shakhray-portfolio.github.io/k-shakhray-portfolio/PricingTable/index.html' rel="noopener noreferrer">Go to website</a>
                 </div>
             </div>
 
