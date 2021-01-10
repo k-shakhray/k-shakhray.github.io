@@ -6,15 +6,38 @@ import quantumIMG from '../../img/quantum-system.JPG'
 import forkioIMG from '../../img/layout-example.jpg'
 import hamIMG from '../../img/ham-layout.jpg'
 import pricingIMG from '../../img/pricingplan.JPG'
+import simpleTrackIMG from '../../img/simple_track.JPG'
 
 export default function Experience() {
     return ( 
     <>
-        <h2 className='experience-title'>My experience </h2>
+        <h2 className='experience-title'>My experience</h2>
         <hr className='experience-hr'/>
 
         <main className='experience-card-container'>
 
+            <div className='experience-card'>
+                <div className='experience-card-illustration'>
+                    <a target='_blank' href='https://k-shakhray-portfolio.github.io/k-shakhray-portfolio/SimpleTrack/' rel="noopener noreferrer">
+                        <img alt='simple track, site' src={simpleTrackIMG}/>
+                        <span>
+                            Go to website
+                        </span>
+                    </a>
+                </div>
+                <div className='experience-card-description'>
+                    <div className='experience-card-title'>
+                        <h3>
+                            Simple Track
+                        </h3>
+                        <span>Example page</span>
+                    </div>
+                    <p>
+                        Simple to-do list with timer
+                    </p>
+                    <a target='_blank' href='https://k-shakhray-portfolio.github.io/k-shakhray-portfolio/SimpleTrack/' rel="noopener noreferrer">Go to website</a>
+                </div>
+            </div>
 
             <div className='experience-card'>
                 <div className='experience-card-illustration'>
@@ -67,6 +90,7 @@ export default function Experience() {
                     <a target='_blank' href='https://dan-it.com.ua/' rel="noopener noreferrer">Go to website</a>
                 </div>
             </div>
+
 
 
             <div className='experience-card'>
