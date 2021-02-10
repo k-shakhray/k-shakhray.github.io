@@ -1,0 +1,24 @@
+html {
+    background: #0e0e1a;
+    color: white;
+}
+
+.page-background {
+    min-height: 100vh;
+
+    background: url('img/background.jpg') no-repeat;
+    background-size: cover;
+
+    filter: blur(3px) grayscale(10%) brightness(0.60);
+}
+
+.rxjs-timer-container {
+    position: relative;
+}
+
+.timer-container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
