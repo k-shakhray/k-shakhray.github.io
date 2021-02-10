@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.07ef6b91.chunk.css",
-    "main.js": "/static/js/main.5405d813.chunk.js",
-    "main.js.map": "/static/js/main.5405d813.chunk.js.map",
+    "main.css": "/static/css/main.40d15c45.chunk.css",
+    "main.js": "/static/js/main.68a1d585.chunk.js",
+    "main.js.map": "/static/js/main.68a1d585.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4b661961.js",
     "runtime-main.js.map": "/static/js/runtime-main.4b661961.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.37936ea2.chunk.js": "/static/js/2.37936ea2.chunk.js",
-    "static/js/2.37936ea2.chunk.js.map": "/static/js/2.37936ea2.chunk.js.map",
+    "static/js/2.f7641589.chunk.js": "/static/js/2.f7641589.chunk.js",
+    "static/js/2.f7641589.chunk.js.map": "/static/js/2.f7641589.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.529e842778ec8e0f905e8d15a2eff12f.js": "/precache-manifest.529e842778ec8e0f905e8d15a2eff12f.js",
+    "precache-manifest.9379cc970f81c10cf60900dd51805086.js": "/precache-manifest.9379cc970f81c10cf60900dd51805086.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/static/css/2.d9ad5f5c.chunk.css.map",
-    "static/css/main.07ef6b91.chunk.css.map": "/static/css/main.07ef6b91.chunk.css.map",
-    "static/js/2.37936ea2.chunk.js.LICENSE.txt": "/static/js/2.37936ea2.chunk.js.LICENSE.txt",
+    "static/css/main.40d15c45.chunk.css.map": "/static/css/main.40d15c45.chunk.css.map",
+    "static/js/2.f7641589.chunk.js.LICENSE.txt": "/static/js/2.f7641589.chunk.js.LICENSE.txt",
     "static/media/alnar_school_img.jpg": "/static/media/alnar_school_img.6cd14bbf.jpg",
+    "static/media/RxJS-Timer.css": "/static/media/background.7ec59a83.jpg",
     "static/media/Header.css": "/static/media/bg_img.00d4b3d1.jpg",
     "static/media/dan_it_img.JPG": "/static/media/dan_it_img.749348ad.JPG",
     "static/media/ham-layout.jpg": "/static/media/ham-layout.17f16954.jpg",
@@ -22,13 +23,14 @@
     "static/media/pricingplan.JPG": "/static/media/pricingplan.8e0804da.JPG",
     "static/media/quantum-system.JPG": "/static/media/quantum-system.b0b57599.JPG",
     "static/media/resume_photo.jpg": "/static/media/resume_photo.f81b374e.jpg",
+    "static/media/rxjs-timer.JPG": "/static/media/rxjs-timer.7ec56732.JPG",
     "static/media/simple_track.JPG": "/static/media/simple_track.81fbf157.JPG"
   },
   "entrypoints": [
     "static/js/runtime-main.4b661961.js",
     "static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.37936ea2.chunk.js",
-    "static/css/main.07ef6b91.chunk.css",
-    "static/js/main.5405d813.chunk.js"
+    "static/js/2.f7641589.chunk.js",
+    "static/css/main.40d15c45.chunk.css",
+    "static/js/main.68a1d585.chunk.js"
   ]
 }
