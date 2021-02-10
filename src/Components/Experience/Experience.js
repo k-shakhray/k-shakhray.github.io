@@ -1,5 +1,8 @@
 import React from "react";
+import {NavLink} from "react-router-dom";
+
 import './Experience.css'
+
 import alnarIMG from '../../img/alnar_school_img.jpg'
 import danIMG from '../../img/dan_it_img.JPG'
 import quantumIMG from '../../img/quantum-system.JPG'
@@ -7,6 +10,7 @@ import forkioIMG from '../../img/layout-example.jpg'
 import hamIMG from '../../img/ham-layout.jpg'
 import pricingIMG from '../../img/pricingplan.JPG'
 import simpleTrackIMG from '../../img/simple_track.JPG'
+import rxjsTimerIMG from '../../img/rxjs-timer.JPG'
 
 export default function Experience() {
     return ( 
@@ -15,6 +19,29 @@ export default function Experience() {
         <hr className='experience-hr'/>
 
         <main className='experience-card-container'>
+
+            <div className='experience-card'>
+                <div className='experience-card-illustration'>
+                    <NavLink to='/rxjs-timer'>
+                        <img alt='simple track, site' src={rxjsTimerIMG}/>
+                        <span>
+                            Go to website
+                        </span>
+                    </NavLink>
+                </div>
+                <div className='experience-card-description'>
+                    <div className='experience-card-title'>
+                        <h3>
+                            RxJS Timer
+                        </h3>
+                        <span>Example page</span>
+                    </div>
+                    <p>
+                        Simple timer using RxJS. The "wait" button works on a double click
+                    </p>
+                    <NavLink to='/rxjs-timer'><a>Go to website</a></NavLink>
+                </div>
+            </div>
 
             <div className='experience-card'>
                 <div className='experience-card-illustration'>
@@ -33,7 +60,7 @@ export default function Experience() {
                         <span>Example page</span>
                     </div>
                     <p>
-                        Simple to-do list with timer
+                        Simple to-do list with timer using only JavaScript
                     </p>
                     <a target='_blank' href='https://k-shakhray-portfolio.github.io/k-shakhray-portfolio/SimpleTrack/' rel="noopener noreferrer">Go to website</a>
                 </div>

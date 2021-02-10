@@ -59,7 +59,7 @@ export default class Skills extends React.Component {
             <div className='skill-delimiter'></div>
 
             <p className='skills-item-description'>
-            ECMAScript 6 • JQuery • React • JSON • Bootstrap • Node.JS
+            ECMAScript 6 • JQuery • React • RxJS • Bootstrap • Node.JS
             </p>
 
         </div>

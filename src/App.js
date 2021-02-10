@@ -7,6 +7,7 @@ import Experience from "./Components/Experience/Experience";
 import Footer from './Components/Footer/Footer';
 import Skills from './Components/Skills/Skills'
 import Page404 from "./Components/Page404/Page404";
+import RxJsTimer from "./Components/ReactProjects/RxJS-Timer/RxJS-Timer";
 import {
     HashRouter as Router,
     Switch,
@@ -23,7 +24,8 @@ function App() {
           <Route exact path='/'  component={About} />
           <Route path='/skills' component={Skills} />
           <Route path='/experience' component={Experience} />
-          <Route component={Page404}/>
+          <Route path='/rxjs-timer' component={RxJsTimer} />
+          <Route path='**' component={Page404}/>
       </Switch>
       <Footer />
          </Router>

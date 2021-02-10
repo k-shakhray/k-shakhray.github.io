@@ -88,11 +88,11 @@
 
 /* JS *//* JS *//* JS */
 .progress-js{
-    width: 70%;
+    width: 80%;
     position: relative;
 }
 .progress-js::after {
-    content: '70%';
+    content: '80%';
     font-weight: 500;
     position: absolute;
     right: 5px;
