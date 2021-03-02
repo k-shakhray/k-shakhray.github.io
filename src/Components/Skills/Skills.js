@@ -23,7 +23,7 @@ export default class Skills extends React.Component {
             <div className='skill-delimiter'></div>
 
             <p className='skills-item-description'>
-                HTML5 • EMMET • SVG • Font Awesome
+                HTML5 • EMMET • SVG
             </p>
 
         </div>
@@ -59,7 +59,7 @@ export default class Skills extends React.Component {
             <div className='skill-delimiter'></div>
 
             <p className='skills-item-description'>
-            ECMAScript 6 • JQuery • React • RxJS • Bootstrap • Node.JS
+            ECMAScript 6 • TypeScript • JQuery • React • RxJS • Bootstrap • Node.JS
             </p>
 
         </div>
@@ -76,7 +76,7 @@ export default class Skills extends React.Component {
             <div className='skill-delimiter'></div>
 
             <p className='skills-item-description'>
-                Git • WordPress • Photoshop • Illustrator
+                Git • WordPress • Photoshop • Illustrator • Vegas Pro • Excel
             </p>
 
         </div>
