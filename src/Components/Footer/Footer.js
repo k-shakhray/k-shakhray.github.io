@@ -16,7 +16,7 @@ export default function Footer() {
                 </ul>
             </div>
             <div className='footer-copyright'>
-            <p>&copy; 2020 Shakhray Klymentii. Nothing is protected</p>
+            <p>&copy; 2022 Shakhray Klymentii. Nothing is protected</p>
             </div>
         </footer>
         </>
